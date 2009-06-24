@@ -1,0 +1,41 @@
+As of rspec-rails-1.2.7, spec_server is deprecated in favor of the spork gem:
+
+http://github.com/timcharper/spork
+
+For those of you working on Windows (no spork for windows just yet), or those
+who may otherwise prefer spec_server over spork (really????), here is the
+spec_server from rspec-rails-1.2.7, merged into a single file. Just grab this
+file, stick it in the scripts/ folder, and you're good to go.
+
+I'm putting this up here so you can have it, but I have no intention of
+maintaining it. Anyone who wishes to is welcome to fork this repo and take
+this over.
+
+Cheers,
+David
+
+== License
+
+(The MIT License)
+
+====================================================================
+==== RSpec, RSpec-Rails
+Copyright (c) 2005-2009 The RSpec Development Team
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of 
+this software and associated documentation files (the "Software"), to deal in 
+the Software without restriction, including without limitation the rights to 
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do 
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all 
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+SOFTWARE.
